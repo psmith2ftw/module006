@@ -1,0 +1,16 @@
+# Student Battery Design Data
+# Generated:,2025-12-05T18:21:27.183758
+# Student:,"Leclaire, Luke Pascal"
+
+# MATERIALS DATA
+Material_Code,Compound_Name,Compound_Formula,Compound_MW_g_per_mol,Element_Name,Element_Symbol,Element_MW_g_per_mol,Half_Reaction,Standard_Potential_V
+Na,Sodium metal,Na,22.99,Sodium,Na,22.99,Na⁺ + e⁻ → Na,-2.71
+Au,Gold(III) chloride,AuCl3,303.33,Gold,Au,196.97,Au³⁺ + 3e⁻ → Au,1.5
+Cu,Copper(II) sulfate,CuSO4,159.61,Copper,Cu,63.55,Cu²⁺ + 2e⁻ → Cu,0.34
+Fe,Iron(II) sulfate,FeSO4,151.91,Iron,Fe,55.85,Fe²⁺ + 2e⁻ → Fe,-0.44
+
+# APPLICATIONS DATA
+Application,Target_Voltage_V,Voltage_Tolerance_V,Current_Requirement_A,Runtime_Hours,Optimization_Goal
+Pacemaker,3.0,0.2,1e-05,87600,minimum_weight
+Flashlight,1.5,0.3,0.4,2.0,maximum_capacity
+Electronics,3.7,0.5,0.5,1.0,balanced_energy_density

@@ -1,0 +1,16 @@
+# Student Battery Design Data
+# Generated:,2025-12-05T18:21:27.187165
+# Student:,"Kimble, Myla Nicole"
+
+# MATERIALS DATA
+Material_Code,Compound_Name,Compound_Formula,Compound_MW_g_per_mol,Element_Name,Element_Symbol,Element_MW_g_per_mol,Half_Reaction,Standard_Potential_V
+Mg,Magnesium sulfate,MgSO4,120.37,Magnesium,Mg,24.31,Mg²⁺ + 2e⁻ → Mg,-2.37
+Ag,Silver nitrate,AgNO3,169.87,Silver,Ag,107.87,Ag⁺ + e⁻ → Ag,0.8
+Sn,Tin(II) acetate,Sn(C2H3O2)2,236.8,Tin,Sn,118.71,Sn²⁺ + 2e⁻ → Sn,-0.14
+Fe3,Iron(III) chloride,FeCl3,162.2,Iron,Fe,55.85,Fe³⁺ + e⁻ → Fe²⁺,0.77
+
+# APPLICATIONS DATA
+Application,Target_Voltage_V,Voltage_Tolerance_V,Current_Requirement_A,Runtime_Hours,Optimization_Goal
+Pacemaker,3.0,0.2,1e-05,87600,minimum_weight
+Flashlight,1.5,0.3,0.4,2.0,maximum_capacity
+Electronics,3.7,0.5,0.5,1.0,balanced_energy_density

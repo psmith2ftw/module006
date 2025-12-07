@@ -1,0 +1,16 @@
+# Student Battery Design Data
+# Generated:,2025-12-05T18:21:27.188749
+# Student:,"Piccolo Hill, Walker Brockett"
+
+# MATERIALS DATA
+Material_Code,Compound_Name,Compound_Formula,Compound_MW_g_per_mol,Element_Name,Element_Symbol,Element_MW_g_per_mol,Half_Reaction,Standard_Potential_V
+K,Potassium metal,K,39.1,Potassium,K,39.1,K⁺ + e⁻ → K,-2.92
+Zn,Zinc chloride,ZnCl2,136.3,Zinc,Zn,65.38,Zn²⁺ + 2e⁻ → Zn,-0.76
+Au,Gold(III) chloride,AuCl3,303.33,Gold,Au,196.97,Au³⁺ + 3e⁻ → Au,1.5
+Sn,Tin(II) acetate,Sn(C2H3O2)2,236.8,Tin,Sn,118.71,Sn²⁺ + 2e⁻ → Sn,-0.14
+
+# APPLICATIONS DATA
+Application,Target_Voltage_V,Voltage_Tolerance_V,Current_Requirement_A,Runtime_Hours,Optimization_Goal
+Pacemaker,3.0,0.2,1e-05,87600,minimum_weight
+Flashlight,1.5,0.3,0.4,2.0,maximum_capacity
+Electronics,3.7,0.5,0.5,1.0,balanced_energy_density

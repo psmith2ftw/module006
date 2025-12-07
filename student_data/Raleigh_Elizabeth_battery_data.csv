@@ -1,0 +1,16 @@
+# Student Battery Design Data
+# Generated:,2025-12-05T18:21:27.189361
+# Student:,"Raleigh, Elizabeth"
+
+# MATERIALS DATA
+Material_Code,Compound_Name,Compound_Formula,Compound_MW_g_per_mol,Element_Name,Element_Symbol,Element_MW_g_per_mol,Half_Reaction,Standard_Potential_V
+Mg,Magnesium sulfate,MgSO4,120.37,Magnesium,Mg,24.31,Mg²⁺ + 2e⁻ → Mg,-2.37
+Ag,Silver nitrate,AgNO3,169.87,Silver,Ag,107.87,Ag⁺ + e⁻ → Ag,0.8
+Fe,Iron(II) sulfate,FeSO4,151.91,Iron,Fe,55.85,Fe²⁺ + 2e⁻ → Fe,-0.44
+Pb,Lead(II) nitrate,Pb(NO3)2,331.21,Lead,Pb,207.2,Pb²⁺ + 2e⁻ → Pb,-0.13
+
+# APPLICATIONS DATA
+Application,Target_Voltage_V,Voltage_Tolerance_V,Current_Requirement_A,Runtime_Hours,Optimization_Goal
+Pacemaker,3.0,0.2,1e-05,87600,minimum_weight
+Flashlight,1.5,0.3,0.4,2.0,maximum_capacity
+Electronics,3.7,0.5,0.5,1.0,balanced_energy_density

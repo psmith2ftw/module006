@@ -1,0 +1,16 @@
+# Student Battery Design Data
+# Generated:,2025-12-05T18:21:27.185929
+# Student:,"Aguilera Palacios, Dana Isabella"
+
+# MATERIALS DATA
+Material_Code,Compound_Name,Compound_Formula,Compound_MW_g_per_mol,Element_Name,Element_Symbol,Element_MW_g_per_mol,Half_Reaction,Standard_Potential_V
+Mg,Magnesium sulfate,MgSO4,120.37,Magnesium,Mg,24.31,Mg²⁺ + 2e⁻ → Mg,-2.37
+Fe3,Iron(III) chloride,FeCl3,162.2,Iron,Fe,55.85,Fe³⁺ + e⁻ → Fe²⁺,0.77
+Zn,Zinc chloride,ZnCl2,136.3,Zinc,Zn,65.38,Zn²⁺ + 2e⁻ → Zn,-0.76
+Au,Gold(III) chloride,AuCl3,303.33,Gold,Au,196.97,Au³⁺ + 3e⁻ → Au,1.5
+
+# APPLICATIONS DATA
+Application,Target_Voltage_V,Voltage_Tolerance_V,Current_Requirement_A,Runtime_Hours,Optimization_Goal
+Pacemaker,3.0,0.2,1e-05,87600,minimum_weight
+Flashlight,1.5,0.3,0.4,2.0,maximum_capacity
+Electronics,3.7,0.5,0.5,1.0,balanced_energy_density

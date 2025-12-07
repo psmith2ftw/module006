@@ -1,0 +1,16 @@
+# Student Battery Design Data
+# Generated:,2025-12-05T18:21:27.185633
+# Student:,"Wu, Bryden"
+
+# MATERIALS DATA
+Material_Code,Compound_Name,Compound_Formula,Compound_MW_g_per_mol,Element_Name,Element_Symbol,Element_MW_g_per_mol,Half_Reaction,Standard_Potential_V
+K,Potassium metal,K,39.1,Potassium,K,39.1,K⁺ + e⁻ → K,-2.92
+MnO2,Manganese dioxide,MnO2,86.94,Manganese,Mn,54.94,MnO₂ + 4H⁺ + 2e⁻ → Mn²⁺ + 2H₂O,1.23
+Pb,Lead(II) nitrate,Pb(NO3)2,331.21,Lead,Pb,207.2,Pb²⁺ + 2e⁻ → Pb,-0.13
+I2,Iodine crystals,I2,253.81,Iodine,I,126.9,I₂ + 2e⁻ → 2I⁻,0.54
+
+# APPLICATIONS DATA
+Application,Target_Voltage_V,Voltage_Tolerance_V,Current_Requirement_A,Runtime_Hours,Optimization_Goal
+Pacemaker,3.0,0.2,1e-05,87600,minimum_weight
+Flashlight,1.5,0.3,0.4,2.0,maximum_capacity
+Electronics,3.7,0.5,0.5,1.0,balanced_energy_density

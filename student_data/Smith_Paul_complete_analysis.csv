@@ -1,0 +1,13 @@
+Cell_Name,Anode_Code,Cathode_Code,Anode_Name,Cathode_Name,Anode_Formula,Cathode_Formula,E_anode,E_cathode,E_cell,Cell_Type,Electrons_transferred,Anode_coeff,Cathode_coeff,Anode_MW,Cathode_MW,Total_mass_g,Capacity_mAh_per_kg,Energy_density_Wh_per_kg,Balanced_equation
+Mg-Cu,Mg,Cu,Magnesium sulfate,Copper(II) sulfate,Mg,CuSO4,-2.37,0.34,2.71,Galvanic,2,1,1,24.31,159.61,183.92000000000002,291.4461601662559,0.7898190940505534,1Mg + 1CuSO4 → products
+Mg-Au,Mg,Au,Magnesium sulfate,Gold(III) chloride,Mg,AuCl3,-2.37,1.5,3.87,Galvanic,6,3,2,24.31,303.33,679.5899999999999,236.62551440329221,0.9157407407407409,3Mg + 2AuCl3 → products
+Mg-Ni,Mg,Ni,Magnesium sulfate,Nickel(II) sulfate,Mg,NiSO4,-2.37,-0.25,2.12,Galvanic,2,1,1,24.31,154.75,179.06,299.3565161274309,0.6346358141901535,1Mg + 1NiSO4 → products
+Cu-Mg,Cu,Mg,Copper(II) sulfate,Magnesium sulfate,Cu,MgSO4,0.34,-2.37,-2.71,Electrolytic,2,1,1,63.55,120.37,183.92000000000002,291.4461601662559,0.0,1Cu + 1MgSO4 → products
+Cu-Au,Cu,Au,Copper(II) sulfate,Gold(III) chloride,Cu,AuCl3,0.34,1.5,1.16,Galvanic,6,3,2,63.55,303.33,797.31,201.68859456589448,0.23395876969643756,3Cu + 2AuCl3 → products
+Cu-Ni,Cu,Ni,Copper(II) sulfate,Nickel(II) sulfate,Cu,NiSO4,0.34,-0.25,-0.5900000000000001,Electrolytic,2,1,1,63.55,154.75,218.3,245.5463938514786,0.0,1Cu + 1NiSO4 → products
+Au-Mg,Au,Mg,Gold(III) chloride,Magnesium sulfate,Au,MgSO4,1.5,-2.37,-3.87,Electrolytic,6,2,3,196.97,120.37,755.05,212.97706553649869,0.0,2Au + 3MgSO4 → products
+Au-Cu,Au,Cu,Gold(III) chloride,Copper(II) sulfate,Au,CuSO4,1.5,0.34,-1.16,Electrolytic,6,2,3,196.97,159.61,872.77,184.25052801234384,0.0,2Au + 3CuSO4 → products
+Au-Ni,Au,Ni,Gold(III) chloride,Nickel(II) sulfate,Au,NiSO4,1.5,-0.25,-1.75,Electrolytic,6,2,3,196.97,154.75,858.19,187.3808053383672,0.0,2Au + 3NiSO4 → products
+Ni-Mg,Ni,Mg,Nickel(II) sulfate,Magnesium sulfate,Ni,MgSO4,-0.25,-2.37,-2.12,Electrolytic,2,1,1,58.69,120.37,179.06,299.3565161274309,0.0,1Ni + 1MgSO4 → products
+Ni-Cu,Ni,Cu,Nickel(II) sulfate,Copper(II) sulfate,Ni,CuSO4,-0.25,0.34,0.5900000000000001,Galvanic,2,1,1,58.69,159.61,218.3,245.5463938514786,0.14487237237237238,1Ni + 1CuSO4 → products
+Ni-Au,Ni,Au,Nickel(II) sulfate,Gold(III) chloride,Ni,AuCl3,-0.25,1.5,1.75,Galvanic,6,3,2,58.69,303.33,782.73,205.44547076684594,0.35952957384198037,3Ni + 2AuCl3 → products

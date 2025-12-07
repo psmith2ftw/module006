@@ -1,0 +1,16 @@
+# Student Battery Design Data
+# Generated:,2025-12-05T18:21:27.188428
+# Student:,"Oliva, Ian"
+
+# MATERIALS DATA
+Material_Code,Compound_Name,Compound_Formula,Compound_MW_g_per_mol,Element_Name,Element_Symbol,Element_MW_g_per_mol,Half_Reaction,Standard_Potential_V
+Na,Sodium metal,Na,22.99,Sodium,Na,22.99,Na⁺ + e⁻ → Na,-2.71
+Cu,Copper(II) sulfate,CuSO4,159.61,Copper,Cu,63.55,Cu²⁺ + 2e⁻ → Cu,0.34
+I2,Iodine crystals,I2,253.81,Iodine,I,126.9,I₂ + 2e⁻ → 2I⁻,0.54
+Ni,Nickel(II) sulfate,NiSO4,154.75,Nickel,Ni,58.69,Ni²⁺ + 2e⁻ → Ni,-0.25
+
+# APPLICATIONS DATA
+Application,Target_Voltage_V,Voltage_Tolerance_V,Current_Requirement_A,Runtime_Hours,Optimization_Goal
+Pacemaker,3.0,0.2,1e-05,87600,minimum_weight
+Flashlight,1.5,0.3,0.4,2.0,maximum_capacity
+Electronics,3.7,0.5,0.5,1.0,balanced_energy_density
