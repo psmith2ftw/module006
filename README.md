@@ -131,6 +131,7 @@ Mass Needed (kg) = (Current_mA × Runtime_hours) / Capacity_mAh/kg
 1. Some of your battery masses may seem unrealistic, but we're ignoring a lot of complexity here, so as long as your calculations are sound, trust your numbers.
 2. We're ignoring things like overvoltage, the fact that voltages drop as the reactions proceed (reach equilibrium), mass of solvents in a "wet" cell, packaging constraints, environmental impacts, or safety.  However, your work here will provide a "first pass" look at this problem that would give ideas of where to investigate batteries that are actual feasible for the applications described.
 3. Pay close attention to the need for series configurations.  For example, if you need 3.7V but your cell generates only 2.0V, you'll need two cells in series.  Be sure to account for this doubling (or tripling or whatever) in your density/capacity calculations.
+4. I recommend using a spreadsheet, but it's not required.  Still, trust me, you'll be glad you did!
 
 
 ## Deliverable
